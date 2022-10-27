@@ -10,5 +10,6 @@ public class Main {
 
         System.out.println("Зп сотрудника: "+ em1.name+" равна :"+em1.addSalary());
         System.out.println("Зп сотрудника: "+ em2.name+" равна :"+em2.addSalary());
+
     }
 }
