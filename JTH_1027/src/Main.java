@@ -5,7 +5,7 @@ public class Main {
         Employee em3 = new Employee(3,"Ольга", "Семенова", 31, "F","Продавец");
         Employee em4 = new Employee(4,"Ирина", "Иванова", 25, "F","Продавец");
 
-        Employees[] stuff = new Employees[4] = (em1, em2, em3, em4);
+        Employees[] stuff = {em1, em2 };
 
         for (int i = 0; i < stuff.length ; i++) {
             System.out.println(stuff[i].getFullName());

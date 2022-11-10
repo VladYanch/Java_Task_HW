@@ -1,10 +1,14 @@
-public class Employee {
+public class Employee  extends Employees{
     private int id;
     private String firstName;
     private String lastName;
     private int age;
     private String gender;
     private String position;
+
+    public String getFirstName() {
+        return firstName;
+    }
 
     public Employee(int id, String firstName, String lastName, int age, String gender, String position) {
         this.id = id;
