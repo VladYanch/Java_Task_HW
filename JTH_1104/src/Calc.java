@@ -1,6 +1,6 @@
 public interface Calc {
-    public void getArea();
+    void getArea();
 
-    public void getPerimetr();
+    void getPerimetr();
 
 }
